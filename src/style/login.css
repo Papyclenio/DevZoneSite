@@ -1,0 +1,100 @@
+:root {
+    --Azul_scuro: #0b1722;
+    --laranja: #eb782b;
+    --darkorange: #eb782b28;
+    --bra: #f5f7f3;
+    --azul: #30b5c3;
+    --Azuli: #0a233b;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--Azuli);
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+
+#login {
+    margin: 200px auto;
+    border: none;
+    border-radius: 1rem;
+    width: 35rem;
+    height: 45rem;
+    background-color: var(--Azul_scuro);
+    box-shadow: #00e5ff1e 1.95px 1.95px 2.6px;
+}
+
+h1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5rem;
+    color: var(--laranja);
+    font-weight: 100;
+}
+
+.campo input {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.8rem;
+    padding: 1.6rem;
+    background-color: #0a233b;
+    border: none;
+    border-radius: 24px;
+    color: var(--bra);
+
+}
+
+
+::placeholder {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.lemb_then {
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 2rem;
+}
+
+
+button {
+    margin-left: 30%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #0a233b;
+    border: none;
+    border-radius: 24px;
+}
+
+button a {
+    text-decoration: none;
+    color: var(--bra);
+    font-size: 1.8rem;
+}
+
+
+button:hover {
+    text-decoration: underline;
+    box-shadow: 1px 1px 10px 10px #c35f30;
+
+}
