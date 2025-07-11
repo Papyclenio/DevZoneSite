@@ -23,6 +23,7 @@ body {
     background-color: var(--Azuli);
     color: var(--bra);
     font-size: 1.6rem;
+    
 
 }
 
@@ -69,16 +70,24 @@ header {
 
 #home {
     display: flex;
-    align-items: center;
-    width: 100vw;
-}
-
-.walcame,
-.DevZone_logo {
-    width: 40%;
+    justify-content: space-between;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.walcame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 10rem;
+    width:40%;
+}
+
+.DevZone_logo {
+    margin-top: 10rem;
+    width:60%;
+    text-align: end;
 }
 
 h2 {
@@ -91,8 +100,15 @@ h2 {
 }
 
 .bt_justaSe {
-    width: auto;
+    width: 50%;
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bt_justaSe button{
+    width: auto;
     padding: 1rem;
     border-radius: 1rem;
     border: none;
@@ -101,8 +117,10 @@ h2 {
     cursor: pointer;
 }
 
-.bt_justaSe:hover {
+.bt_justaSe button:hover {
     letter-spacing: 0.1rem;
+    transform:translate(-1, -1);
+    text-transform: uppercase;
 }
 
 
@@ -144,14 +162,15 @@ h2 {
 
 #beneficio {
     margin-top: 30rem;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 60vh;
 }
 
 .servico {
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+   
 }
 
 .form {
@@ -160,10 +179,10 @@ h2 {
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px #0b1722;
     height: 30rem;
-    width: 33%;
-    max-width: 300px;
-    margin: 1rem;
-    margin-top: 6rem;
+    width: 30%;
+    max-width: 33.3%;
+    margin: 0rem 1rem;
+    margin-top: 7rem;
     align-items: center;
     flex-direction: column;
     transition: 1s;
@@ -227,6 +246,8 @@ p {
 #CTA .bt_for a:hover {
     text-decoration: underline;
     letter-spacing: .2rem;
+    transform:translate(-3, -3);
+    text-transform: uppercase;
 }
 
 .cont {
@@ -235,7 +256,7 @@ p {
     background-color: var(--Azul_scuro);
     height: 100%;
     margin-top: 10rem;
-    width: 100vw;
+    width: 100%;
     height: 9rem;
 }
 
