@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style/login.css">
+   <link rel="shortcut icon" href="src/img/favicon_io/favicon.ico" type="image/x-icon">
     <title>Junta-se</title>
 </head>
 <body>
@@ -12,12 +13,13 @@
         <div class="campo">
             <input type="text" name="nome" id="nome" placeholder="Nome completo" required> <br>
             <input type="number" name="numero" id="numero" placeholder="Número do WhatsApp" required> <br>
-            <input type="email" name="e-mail" id="e-mail" placeholder="E-mail">
+            <input type="email" name="e-mail" id="email" placeholder="E-mail">
         </div>
         <div class="lemb_then">
                 <input type="checkbox" name="lemb" id="lemb" style="margin-right: 1px; accent-color: #0a233b;">Lembra me de paticipar no grupo
         </div>
-        <button type="submit"><a href="../../index.html">Junta-se</a></button>
+        <button type="submit" onclick="juntaSe()"><a href="#">Junta-se</a></button>
     </form>
+    <script src="../js/script_junteSe.js"></script>
 </body>
 </html>

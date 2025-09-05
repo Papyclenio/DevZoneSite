@@ -1,0 +1,50 @@
+@media(max-width: 900px) {
+
+    .walcame {
+        display: flex;
+        align-items: center;
+    }
+
+    .DevZone_logo img {
+        width: 400px;
+    }
+
+    h2 {
+        letter-spacing: .8rem;
+        font-size: 2.2rem;
+
+    }
+
+    .bt_justaSe {
+        width: 70%;
+    }
+
+
+    .sobre {
+        display: block;
+    }
+
+    .block_1,
+    .block_2,
+    .block_3 {
+        margin: 0rem;
+        box-shadow: none;
+
+    }
+
+    .block_3 {
+        display:none;
+        margin-top: 0rem
+    }
+
+
+    .form h4 {
+        text-align: center;
+    }
+
+    .form p {
+        text-align: center;
+
+    }
+
+}
